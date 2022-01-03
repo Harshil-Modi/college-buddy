@@ -36,9 +36,6 @@ public class Main extends Applet {
 ### Animated Rectangle Filling
 
 ```Java
-import java.applet.*;
-import java.awt.*;
-
 /*<applet code="Main.class" width="500" height="500"></applet>*/
 
 public class Main extends Applet {
@@ -73,9 +70,6 @@ public class Main extends Applet {
 ### Rectangles Inside Rectangle
 
 ```Java
-import java.applet.*;
-import java.awt.*;
-
 /*<applet code="Main" width="500" height="500"></applet>*/
 
 public class Main extends Applet {
@@ -108,10 +102,6 @@ public class Main extends Applet {
 Write a program that has only one button in the frame, clicking on the button cycles through the colors: red->green->blue-> and so on.one color change per click.
 
 ```Java
-import java.applet.*;
-import java.awt.*;
-import java.awt.event.*;
-
 /*<applet code="Main.class" width="500" height="500"></applet>*/
 
 public class Main extends Applet implements ActionListener {
